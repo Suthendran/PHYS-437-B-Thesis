@@ -1,0 +1,20 @@
+Necessary Files are found in Rabi Oscillations 3-Level System - Trial 2
+
+Rabi Oscillations 3-Level System - Trial 1 - Incorrect was the first run through for the simulation. However, due to my own naivite, I couldn't get it to work. Mostly trying to brute force the code without understanding it. 
+
+So I moved to Rabi Oscillations Vacuum Simulation and Mods as they were the QuTiP scripts given on the modules part of the QuTiP website. However these did not fit with our model as this used a Jaynes-Cummings formalism.
+
+Next I moved onto Rabi Oscillations 2-Level System to try and apply what I'd learned into a system that was more reminiscent of what we had
+
+Finally this takes me to Rabi Oscillations 3-Level System - Trial 2 which have the following files:
+ 
+Trial 1 - Rabi Oscillations - 3-Level System - Only Consider Exciton
+Trial 2 - Rabi Oscillations - 3-Level System - No Gaussian - Spontaneous Emission, and Dephasing - Parameters from Paper
+Trial 3 - Rabi Oscillations - 3-Level System - Gaussian and No Spontaneous Emission, No Dephasing
+Trial 4 - Rabi Oscillations - 3-Level System - Gaussian and Spontaneous Emission, and Dephasing
+Trial 5 - Rabi Oscillations - 3-Level System - Gaussian, Spontaneous Emission, and Dephasing, 1 Extra Hamiltonian Term
+Trial 6 - Rabi Oscillations - 3-Level System - Gaussian, Spontaneous Emission, and Dephasing, 1 Extra Hamiltonian Term - Reduced
+Trial 7 - Rabi Oscillations - 3-Level System - Gaussian, Spontaneous Emission, and Dephasing, 1 Extra Hamiltonian Term - Reduced Further
+Trial 8 - Rabi Oscillations - 3-Level System - Gaussian, Spontaneous Emission, and Dephasing, and 2 Extra Hamiltonian Term - Success!
+
+I think further work could be done to understand the exact parameters used by Fischer et. al. This was not included in my work as I lacked the time to pursue it. However I believe this would be crucial in understand how our code works. This would further help us understand the parameters used in Huber et. al. and instead of a trial and error method, use parameters that are more representative of the experiment at hand. 
